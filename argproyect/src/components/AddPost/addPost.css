@@ -1,0 +1,74 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    background-color: lightslategray;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form-blog {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    background-color: lightslategray;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.label-blog {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.input.blog {
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 16px;
+    border: 0;
+}
+
+& :focus {
+    outline:none;
+}
+
+.react-datepicker_input-container.input-blog{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-blog.text-area-blog {
+    resize: vertical;
+    max-height: 200px;
+}
+
+.image-preview-container {
+    text-align: center;
+}
+
+.image-preview {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba (o,o,o,o.2);
+}
+
+.btn-blog {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px auto;
+}
+
+& :hover {
+    background-color:   aquamarine;
+    transition: background-color 5s ease-out;
+}
