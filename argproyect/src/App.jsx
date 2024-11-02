@@ -7,6 +7,7 @@ import Header from "./components/Footer/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import AddPost from "./components/AddPost/AddPost";
+
 import "./App.css";
 
 function App (){
