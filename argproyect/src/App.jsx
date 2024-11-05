@@ -14,7 +14,7 @@ function App (){
   return (
     <BrowserRouter>
     <div className="container"/>
-      <Header isLogged={true} />
+      <Header isLogged={true}/>
       <div className="content">
         <Routes>
           <Route path="/" element={<Home/>}/>
